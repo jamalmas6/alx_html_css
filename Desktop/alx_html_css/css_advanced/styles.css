@@ -1,0 +1,199 @@
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Global styles */
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+    background-color: #f4f4f4;
+    line-height: 1.6;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Spin-Cycle-OT', sans-serif;
+}
+
+button {
+    font-size: 16px;
+    padding: 10px 20px;
+    cursor: pointer;
+    background-color: #ff6600;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+}
+
+/* Header styles */
+header {
+    background-color: #333;
+    padding: 20px;
+    color: #fff;
+}
+
+header nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header nav img {
+    width: 150px;
+}
+
+header nav ul {
+    list-style-type: none;
+    display: flex;
+    gap: 30px;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Main Section */
+main {
+    padding: 40px;
+}
+
+/* Hero section */
+section > div {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+
+section h1 {
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+section span {
+    display: inline-block;
+    margin-right: 20px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #333;
+}
+
+/* Learn from the pros */
+section > div > div {
+    display: flex;
+    justify-content: space-between;
+}
+
+section > div > div > div {
+    text-align: center;
+}
+
+section img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+section h3 {
+    font-size: 1.2rem;
+    color: #333;
+}
+
+section p {
+    color: #777;
+    font-size: 0.9rem;
+}
+
+/* Testimonial Section */
+section blockquote {
+    font-style: italic;
+    color: #555;
+    margin-bottom: 20px;
+}
+
+section h3 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+section p {
+    font-size: 1rem;
+    color: #777;
+}
+
+/* Popular tutorials */
+section h2 {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+section > div {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+section div img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+section div h3 {
+    margin-top: 10px;
+    font-size: 1.5rem;
+}
+
+section div p {
+    color: #777;
+    font-size: 1rem;
+}
+
+section div div {
+    display: flex;
+    gap: 5px;
+}
+
+section div i {
+    color: #ff6600;
+}
+
+/* FAQ Section */
+section div div {
+    margin-bottom: 20px;
+}
+
+section div div h3 {
+    font-size: 1.3rem;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+section div div p {
+    color: #555;
+    font-size: 1rem;
+}
+
+/* Footer Section */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+}
+
+footer .fa-brands {
+    font-size: 24px;
+    margin: 0 10px;
+    cursor: pointer;
+}
+
+footer p {
+    text-align: center;
+    margin-top: 20px;
+}
